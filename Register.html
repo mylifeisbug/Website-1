@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body{
+    background-color: rgb(32, 32, 52);
+     }
+
+     .head{
+     color: purple;
+}
+    </style>
+    <script src="home.js"></script>
+</head>
+<body>
+    <center> 
+        <div class="head">
+         <h1> Registration! </h1>
+    
+         <form></form>
+             <label>First Name *: </label>
+             <input type="text" name="fname" size="7" placeholder="First"><br><br>
+
+             <label>Middle Name: </label>
+             <input type="text" name="mname" size="7" placeholder="Middle"><br><br>
+
+             <label>Last Name*: </label>
+             <input type="text" name="lname" size="7" placeholder="Last"><br><br>
+ 
+             <label>Gender*: </label>
+             <input type="radio" name="male">Male
+             <input type="radio" name="female">Female
+             <input type="text" size="4" name="others">others<br><br>
+
+             <label>Age*:</label>
+             <input type="text" size="3" name="age"><br><br>
+
+             <label>Course Name*:</label>
+             <select name="course">
+                <option checked>--select--</option>
+                <option>B.Com</option>
+                <option>BBA</option>
+                <option>Bsc Cs</option>
+                <option>Bsc biotech</option>
+                <option>BA English</option>
+                <option>BA psychology</option>
+             </select><br><br>
+
+             <lable>Enrollment No :</lable>
+             <input type="text" name="enroll" size="7" placeholder="Enroll"><br><br>
+             
+             <label>Email*:</label>
+             <input type="email" name="email" size="7" placeholder="email"><br><br>
+
+             <input type="submit" value="Submit" name="submit" onclick="hello()">
+             <input type="reset"  value="Reset"  name="reset">
+
+        </form>
+        <hr width="500px" color="blue" size="2">
+        
+        Already Sign up?
+        <h3><a href="Login.html">Log in</a></h3>
+    </div>
+
+        <hr width="500px" color="purple" size="2">
+    </center>
+</body>
+</html>
